@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PruebaColores",
+            "request": "launch",
+            "mainClass": "PruebaColores",
+            "projectName": "Swing_d51b4002"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PruebaDibujo",
+            "request": "launch",
+            "mainClass": "PruebaDibujo",
+            "projectName": "Swing_d51b4002"
+        }
+    ]
+}
