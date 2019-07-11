@@ -2,6 +2,30 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PruebaEventos2",
+            "request": "launch",
+            "mainClass": "PruebaEventos2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PruebaEventos",
+            "request": "launch",
+            "mainClass": "PruebaEventos"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TrabajandoFuentes",
+            "request": "launch",
+            "mainClass": "TrabajandoFuentes"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Pruebas",
+            "request": "launch",
+            "mainClass": "Pruebas"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PruebaColores",
             "request": "launch",
             "mainClass": "PruebaColores",
