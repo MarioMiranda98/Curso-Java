@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - EventosVentana",
+            "request": "launch",
+            "mainClass": "EventosVentana",
+            "projectName": "Swing_d51b4002"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PruebaEventos2",
             "request": "launch",
             "mainClass": "PruebaEventos2"

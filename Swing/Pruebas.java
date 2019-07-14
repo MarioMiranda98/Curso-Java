@@ -9,7 +9,7 @@ public class Pruebas {
         }
         String fuente = JOptionPane.showInputDialog("Introduce fuente");
         boolean estaFuenta = false;
-        for (Strign nombre : nombreFuentes) {
+        for (String nombre : nombreFuentes) {
             if (fuente.equals(nombre)){
                 estaFuenta = true;
             }
