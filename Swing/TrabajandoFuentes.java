@@ -8,6 +8,7 @@ public class TrabajandoFuentes {
     }
 }
 
+@SuppressWarnings("serial")
 class MarcoConFuentes extends JFrame {
     public MarcoConFuentes() {
         setTitle("Prueba Con Fuentes");
@@ -19,6 +20,7 @@ class MarcoConFuentes extends JFrame {
     }
 }
 
+@SuppressWarnings("serial")
 class LaminaConFuentes extends JPanel {
     public void paintComponent(Graphics g) {
         super.paintComponent(g);

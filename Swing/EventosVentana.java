@@ -16,6 +16,7 @@ public class EventosVentana {
     }
 }
 
+@SuppressWarnings("serial")
 class MarcoEventosVentana extends JFrame {
     public MarcoEventosVentana() {
         //setTitle("Eventos Ventana");

@@ -10,6 +10,7 @@ public class PruebaEventos2 {
     }
 }
 
+@SuppressWarnings("serial")
 class MarcoBotones2 extends JFrame {
     public MarcoBotones2() {
         setTitle("Botones y Eventos");
@@ -20,6 +21,7 @@ class MarcoBotones2 extends JFrame {
     }
 }
 
+@SuppressWarnings("serial")
 class LaminaBotones2 extends JPanel {
     public LaminaBotones2(){
         botonAzul = new JButton("Azul");

@@ -9,6 +9,7 @@ public class PruebaDibujo {
     }
 }
 
+@SuppressWarnings("serial")
 class MarcoConDibujos extends JFrame {
     public MarcoConDibujos () {
         setTitle("Prueba Dibujos");
@@ -19,6 +20,7 @@ class MarcoConDibujos extends JFrame {
     }
 }
 
+@SuppressWarnings("serial")
 class LaminaConFiguras extends JPanel {
     /*public void paintComponent(Graphics g) { Primer video
         super.paintComponent(g);

@@ -1,4 +1,3 @@
-import java.awt.*;
 import javax.swing.*;
 
 public class CreandoMarcos { 
@@ -9,6 +8,7 @@ public class CreandoMarcos {
     }
 }
 
+@SuppressWarnings("serial")
 class miMarco extends JFrame {
     public miMarco() {
         //setSize(500, 300);

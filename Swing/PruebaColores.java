@@ -11,6 +11,7 @@ public class PruebaColores {
     }
 }
 
+@SuppressWarnings("serial")
 class MarcoColores extends JFrame {
     public MarcoColores() {
         setTitle("Probando colores");
@@ -22,6 +23,7 @@ class MarcoColores extends JFrame {
     }
 }
 
+@SuppressWarnings("serial")
 class LaminaColor extends JPanel {
     public void paintComponent(Graphics g) {
         super.paintComponent(g);

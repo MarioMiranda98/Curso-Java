@@ -1,0 +1,11 @@
+ImageIcon imgIcon1 = new ImageIcon("src/graficos/bola_amarilla.jpg");
+        Image imgEscalada1 = imgIcon1.getImage().getScaledInstance(30,30, Image.SCALE_SMOOTH);
+        Icon iconoEscalado1 = new ImageIcon(imgEscalada1);
+        
+        ImageIcon imgIcon2 = new ImageIcon("src/graficos/bola_azul.jpg");
+        Image imgEscalada2 = imgIcon2.getImage().getScaledInstance(30,30, Image.SCALE_SMOOTH);
+        Icon iconoEscalado2 = new ImageIcon(imgEscalada2);
+        
+        ImageIcon imgIcon3 = new ImageIcon("src/graficos/bola_roja.jpg");
+        Image imgEscalada3 = imgIcon3.getImage().getScaledInstance(30,30, Image.SCALE_SMOOTH);
+        Icon iconoEscalado3 = new ImageIcon(imgEscalada3);

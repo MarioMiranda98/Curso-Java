@@ -9,6 +9,7 @@ public class EventosTeclado {
     }
 }
 
+@SuppressWarnings("serial")
 class MarcoEventoTeclado extends JFrame {
     public MarcoEventoTeclado() {
         setBounds(700, 300, 600, 450);

@@ -8,6 +8,7 @@ public class CreandoMarcoCentrado {
     }
 }
 
+@SuppressWarnings("serial")
 class MarcoCentrado extends JFrame {
     public MarcoCentrado () {
         //setLocationRelativeTo(null); -> Coloca el marco centrado

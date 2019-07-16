@@ -7,6 +7,7 @@ public class EscribiendoEnMarco {
     }
 }
 
+@SuppressWarnings("serial")
 class MarcoConTexto extends JFrame {
     public MarcoConTexto() {
         setLocation(400, 200);
@@ -18,6 +19,7 @@ class MarcoConTexto extends JFrame {
     }
 }
 
+@SuppressWarnings("serial")
 class Lamina extends JPanel {
     public Lamina() {
         

@@ -1,6 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.Event;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -11,6 +10,7 @@ public class PruebaEventos {
     }
 }
 
+@SuppressWarnings("serial")
 class MarcoBotones extends JFrame {
     public MarcoBotones() {
         setTitle("Botones y Eventos");
@@ -21,6 +21,7 @@ class MarcoBotones extends JFrame {
     }
 }
 
+@SuppressWarnings("serial")
 class LaminaBotones extends JPanel {
     public LaminaBotones(){
         botonAzul = new JButton("Azul");
