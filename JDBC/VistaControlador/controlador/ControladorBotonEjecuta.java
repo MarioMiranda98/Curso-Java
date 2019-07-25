@@ -1,6 +1,6 @@
 package controlador;
 
-import java.awt.event.ActionListener;
+import java.awt.event.*;
 import modelo.EjecutaConsultas;
 import vista.MarcoAplicacion;
 import java.sql.*;
@@ -9,7 +9,6 @@ public class ControladorBotonEjecuta implements ActionListener {
 
     public ControladorBotonEjecuta (MarcoAplicacion marco) {
         this.marco = marco;
-        marco = new EjecutaConsultas();
     }
 
     public void actionPerformed (ActionEvent e) {
@@ -22,8 +21,8 @@ public class ControladorBotonEjecuta implements ActionListener {
                 marco.resultado.append("Producto: " + rs.getString(1) + ", Seccion: " + rs.getString(2) + ", Precio: " + rs.getString(3) + ", Pais de Origen: " + rs.getString(4));
                 marco.resultado.append("\n");
             }
-        } catch(Exception e) {
-            System.out.println(e.getMessage());
+        } catch(Exception ex) {
+            System.out.println(ex.getMessage());
         }    
     }
 

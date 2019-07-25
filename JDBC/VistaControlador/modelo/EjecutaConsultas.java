@@ -3,9 +3,9 @@ package modelo;
 import java.sql.*;
 import controlador.Conexion;
 
-public class EjecutaConsulta {
+public class EjecutaConsultas {
 
-    public EjecutaConsulta() {
+    public EjecutaConsultas() {
         conexion = new Conexion();
     }
 

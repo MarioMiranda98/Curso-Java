@@ -11,7 +11,7 @@ public class CargaSecciones {
     public ResultSet ejecutaConsulta() {
         Connection acceso = miConexion.dameConexion();
         try {
-            statement secciones = acceso.createStatement();
+            Statement secciones = acceso.createStatement();
             rs = secciones.executeQuery("SELECT DISTINCTROW SECCION FROM PRODUCTOS");
             rs.close();
             acceso.close();

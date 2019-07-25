@@ -7,7 +7,7 @@ import vista.MarcoAplicacion;
 
 public class ControladorCargaPaises extends WindowAdapter {
 
-    public ControladorCargaSecciones(MarcoAplicacion marco) {
+    public ControladorCargaPaises(MarcoAplicacion marco) {
         this.marco = marco;
     }
 
@@ -20,8 +20,13 @@ public class ControladorCargaPaises extends WindowAdapter {
             }
         } catch(Exception e) {
             System.out.println(e.getMessage());
+        } finally {
+            try {
+                rs.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
-        rs.close();
     }
 
     CargaPaises objeto = new CargaPaises();

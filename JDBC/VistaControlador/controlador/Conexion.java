@@ -4,10 +4,8 @@ import java.sql.*;
 
 public class Conexion {
     public Conexion() {
-
+        conexion = null;
     }
-
-    conexion = null;
 
     public Connection dameConexion() {
         try {

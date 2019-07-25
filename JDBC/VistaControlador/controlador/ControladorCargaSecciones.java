@@ -20,8 +20,13 @@ public class ControladorCargaSecciones extends WindowAdapter {
             }
         } catch(Exception e) {
             System.out.println(e.getMessage());
+        } finally { 
+            try {
+                rs.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
-        rs.close();
     }
 
     CargaSecciones objeto = new CargaSecciones();

@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import controlador.ControladorCargaSecciones;
 import controlador.ControladorBotonEjecuta;
+import controlador.ControladorCargaPaises;
 
 public class MarcoAplicacion extends JFrame {
     public MarcoAplicacion() {
@@ -32,8 +33,8 @@ public class MarcoAplicacion extends JFrame {
         addWindowListener(new ControladorCargaPaises(this));
     }
     
-    private JComboBox secciones;
-    private JComboBox paises;
-    private JTextArea resultado;
-    private JButton botonConsulta;
+    public JComboBox secciones;
+    public JComboBox paises;
+    public JTextArea resultado;
+    public JButton botonConsulta;
 }

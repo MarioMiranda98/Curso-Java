@@ -11,7 +11,7 @@ public class CargaPaises {
     public ResultSet ejecutaConsultaPaises() {
         Connection acceso = miConexion.dameConexion();
         try {
-            statement paises = acceso.createStatement();
+            Statement paises = acceso.createStatement();
             rs = paises.executeQuery("SELECT DISTINCTROW PAISDEORIGEN FROM PRODUCTOS");
             rs.close();
             acceso.close();
