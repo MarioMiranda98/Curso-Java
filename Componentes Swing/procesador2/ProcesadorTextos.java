@@ -3,7 +3,6 @@ package procesador2;
 import javax.swing.*;
 import javax.swing.text.*;
 import java.awt.*;
-import java.awt.event.*;
 
 public class ProcesadorTextos {
     public static void main(String[] args) {
