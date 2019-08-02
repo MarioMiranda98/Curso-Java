@@ -9,10 +9,15 @@ public class LaminaBotones extends JPanel {
 
         for (int i = 0; i < opciones.length; i += 1) {
             JRadioButton bot = new JRadioButton(opciones[i]);
+            bot.setActionCommand(opciones[i]);
             grupo.add(bot);
             add(bot);
             bot.setSelected(i == 0);
         }
+    }
+
+    public String dameSeleccion() {
+        return grupo.getSelection().getActionCommand();
     }
 
     private ButtonGroup grupo;
